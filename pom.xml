@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.3.8.RELEASE</version>
+		<version>1.4.1.RELEASE</version>
 		<relativePath/>
 	</parent>
 
@@ -91,11 +91,6 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.assertj</groupId>
-			<artifactId>assertj-core</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
@@ -104,16 +99,6 @@
 
 	<dependencyManagement>
 		<dependencies>
-			<dependency>
-				<groupId>org.assertj</groupId>
-				<artifactId>assertj-core</artifactId>
-				<version>2.5.0</version>
-			</dependency>
-			<dependency>
-				<groupId>org.ehcache</groupId>
-				<artifactId>ehcache</artifactId>
-				<version>3.1.2</version>
-			</dependency>
 			<dependency>
 				<groupId>org.webjars.bower</groupId>
 				<artifactId>jquery</artifactId>
